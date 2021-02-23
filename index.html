@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Data</title>
+</head>
+<body>
+    <h1>My Bio Data</h1>
+
+    <form>
+    <fieldset>
+        <legend>Personal Information</legend>
+    <label for="firstName">FirstName:</label>
+    <input type="text" placeholder="First Name" id="firstName">
+
+    <label for="lasttName">LastName:</label>
+    <input type="text" placeholder="Last Name" id="lastName">
+    <br><br>
+
+    <label for="male">Male:</label>
+    <input type="radio" name="gender" id="male">
+
+    <label for="female">Female:</label>
+    <input type="radio" name="gender" id="female">
+
+    <label for="other">Other:</label> 
+    <input type="radio" name="gender" id="other">
+    <br><br>
+    <label for="DOB">Date of Birth:</label>
+    <input type="date" data-date-format="mm-dd-yyyy" placeholder="mm/dd/yyyy" id="DOB" >
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Enter Your Email" id="email">
+    <br><br>
+
+    <label for="phoneNo">Phone:</label>
+    <input type="tel" maxlength="10" minlength="10" placeholder="+91" id="phoneNo">
+    <br><br>
+
+    <label for="Height">Height:</label>
+    <input type="number" placeholder="Height in Feet" id="Height">
+    <br><br>
+</fieldset>
+
+    <fieldset>
+        <legend>Education</legend>
+
+    <label for="schoolName">School Name:</label>
+    <input type="text" placeholder="School Name" id="schoolName">
+    <br><br>
+
+    <label for="class">Class:</label>
+    <input type="number" placeholder="Enter Class" id="class">
+    <br><br>
+
+    <label for="stream">Strem:</label>
+    <select name="Stream" id="stream">
+        <option value="">Stream</option>
+        <option value="Science Medical">Science Medical</option>
+        <option value="Science Non-Medical">Science Non-Medical</option>
+        <option value="Commerce">Commerce</option>
+        <option value="Arts">Arts</option>
+        <option value="Humanities">Humanities</option>
+        
+    </select>
+
+<br><br>
+<label for="marksheet">Marksheet:</label>
+<input type="file" placeholder="Choode File" accept=".txt" id="marksheet">
+</fieldset>
+
+</form>
+
+<br><br>
+<input type="submit">
+</body>
+</html>
